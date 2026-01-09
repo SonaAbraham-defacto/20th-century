@@ -1,8 +1,8 @@
 # 20th Century Text Mining Project
 
-This repository contains a Python-based text mining project focused on analyzing key events of the twentieth century using data scraped from Wikipedia.
+This repository contains a Python based text mining project focused on analyzing key events of the twentieth century using data scraped from Wikipedia.
 
-The project demonstrates an end-to-end workflow including data collection, text preprocessing, linguistic analysis, geographic analysis, and sentiment analysis.
+The project demonstrates an end to end workflow including data collection, text preprocessing, linguistic analysis, geographic analysis, and sentiment analysis.
 
 ---
 
@@ -25,8 +25,8 @@ A Jupyter notebook is used to scrape the Wikipedia page **“Key events of the 2
 The extracted content is saved as a text file for downstream analysis.
 
 ### Files
-- `20th_century_scrape.ipynb` — web scraping notebook  
-- `key_events_20th_century.txt` — scraped text content  
+- `20th_century_scrape.ipynb` -  web scraping notebook  
+- `key_events_20th_century.txt` - scraped text content  
 
 ---
 
@@ -37,17 +37,17 @@ The main analysis notebook applies several natural language processing technique
 
 - text cleaning and tokenization  
 - word frequency analysis  
-- part-of-speech (POS) tagging  
+- part of speech (POS) tagging  
 - country mention analysis using a lookup list and regular expressions  
-- sentiment analysis using sentence-level polarity and subjectivity scores  
+- sentiment analysis using sentence level polarity and subjectivity scores  
 
 The results are visualized to support interpretation of linguistic structure, geographic focus, and overall sentiment.
 
 ### Files
-- `text_mining/exercise_1_5_text_mining_20th_century.ipynb` — text mining and analysis notebook  
-- `text_mining/countries_lookup.csv` — list of country names used for matching  
-- `text_mining/country_mentions.csv` — frequency of country mentions  
-- `text_mining/key_events_20th_century.txt` — input text used for analysis  
+- `text_mining/20th_century_text_mining_analysis.ipynb` - text mining and analysis notebook  
+- `text_mining/countries_lookup.csv` -list of country names used for matching  
+- `text_mining/country_mentions.csv` -frequency of country mentions  
+- `text_mining/key_events_20th_century.txt` - input text used for analysis  
 
 ---
 
